@@ -13,7 +13,7 @@ The type of images in this data are made in all 3 planes: axial, coronal and sag
 The first dataset has 4 outputs while the second dataset has only 2 outputs (tumor and no-tumor). 2 CNNs were created from scratch one predicting if the image has tumor or not and the second CNN predicts the type of tumor, including meningioma, glioma, and pituitary. Simple models were created in order to follow the performance and open the path to future works.
 
 ### How to use the code for training
-Download the datasets and the training codes. Store them and in the training and testing paths variables of the code write the location of the dataset and run the code. For the 2 classes model, 2 datasets were used. 2classes_dataset_1 and 2classes_dataset_2.
+Download the datasets and the training codes. Store them and in the training and testing paths variables of the code write the location of the dataset. For the 2 classes classifier, combine the first dataset where all the tumor types will be part of a single folder called 'yes'. For this model, 2 datasets were used, the second due to reduce overfitting.
 
 ### How to use the code for predicting
-download the model (.h5 files) and load it in your console. download the predicting files and the predicting datasets. Moreover, you can upload images at your own and predict them changing the name in the image_path variable.
+Store the models (.h5 files) and load them in your console. Use the testing folders for predicting and see the results. Moreover, you can upload images at your own and predict them changing the name in the image_path variable.
