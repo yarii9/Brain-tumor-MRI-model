@@ -15,5 +15,7 @@ The first dataset has 4 outputs while the second dataset has only 2 outputs (tum
 ### How to use the code for training
 Download the datasets and the training codes. Store them and in the training and testing paths variables of the code write the location of the dataset. For the 2 classes classifier, combine the first dataset where all the tumor types will be part of a single folder called 'yes'. For this model, 2 datasets were used, the second due to reduce overfitting.
 
+Each training file contains the loading of the dataset, the structure of the model and the training process including the study of the dataset and accuracy. At the end, you can save the model to make predictions in the next files.
+
 ### How to use the code for predicting
-Store the models (.h5 files) and load them in your console. Use the testing folders for predicting and see the results. Moreover, you can upload images at your own and predict them changing the name in the image_path variable.
+Store the models (.h5 files) obtained from the training files and load them in your console. Use the testing folders for predicting and see the results. Moreover, you can upload images at your own and predict them changing the name in the image_path variable.
